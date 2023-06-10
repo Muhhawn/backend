@@ -1,0 +1,8 @@
+درج پیام جدید:
+INSERT INTO contact_us (Name,LastName,Phone,Message)
+VALUES ("Mahan","soltani","099992312","Hi")
+
+
+حذف پیام:
+DELETE FROM contact_us
+WHERE Id = 1
