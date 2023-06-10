@@ -1,0 +1,18 @@
+
+Filter:
+
+نمایش کتابهای منتشر شده بعد از سال 2000:
+SELECT * FROM `books` WHERE `release_date` > 2000
+
+نمایش کتابهایی که بیش از 200 صفحه دارند:
+SELECT * FROM `books` WHERE `pages` > 200
+
+Sort:
+
+نمایش کتاب ها به ترتیب حروف الفبا:
+SELECT * FROM `books`
+ORDER BY `title`;
+
+نمایش کتاب ها به ترتیب تعداد صفحه - از زیاد به کم:
+SELECT * FROM `books`
+ORDER BY `pages` DESC;
